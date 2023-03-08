@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="startGame"><button>Start Game</button></div>
+    <div class="game-starting-counter">
+      <span class="number"></span> minutes left
+    </div>
+    <div class="game-container">
+      <div class="game-header">
+        <div class="user">Hello: <span></span></div>
+        <div class="wrong">Wrong Tries: <span></span></div>
+      </div>
+      <div class="game-body"></div>
+    </div>
+    <div class="result">
+      <div class="content">
+        <span class="level">Perfect</span><br />You Have Finished The Game With
+        <span class="wrong-number"></span> Wrong Choices
+      </div>
+      <button class="startAgain">Start Again</button>
+    </div>
+    <audio class="success" src="audio/success.mp3"></audio>
+    <audio src="audio/fail.mp3" class="failur"></audio>
+    <script src="main.js"></script>
+  </body>
+</html>

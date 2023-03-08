@@ -1,0 +1,18 @@
+-- We Will Work On N Aspects
+1 - Wrong Tries
+2 - Name Function Trigging
+3 - Setting Function Controls The Game
+
+-- Steps You Will Follow
+--- Done
+1 - Set Alert Or Popup Takes UserName And Use It To Write Greeting Message
+2 - You Must Create The Images Randomly
+
+---In Progress
+3 - Set Function Which Takes 2 Arguments And Controls Them If They Are Identical The Choice Be Right, If Not The Choice Be False
+4 - Set Function Which Counts The Wrong Tries
+5 - Setting Success And Failure Audio
+6 - Setting The Result Message Which Will Be "(Perfect, Good, Bad), You Have Mistakes (Number Of Mistakes)"
+
+-- Ideas
+1 - Set Timer To Each Time The User Takes To Find True Choice, And Calculate The Average Time Of His Choosing The True Choice
